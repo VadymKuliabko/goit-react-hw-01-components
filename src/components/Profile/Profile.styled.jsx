@@ -17,7 +17,7 @@ export const Description = styled.div`
 export const Avatar = styled.img`
   margin: 0 auto;
   margin-bottom: 30px;
-  border-radius: 50px 50px;
+
   overflow: hidden;
   width: 100px;
   height: 100px;

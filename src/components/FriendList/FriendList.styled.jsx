@@ -26,9 +26,9 @@ export const Status = styled.span`
   border-radius: 50%;
   background-color: ${({ isOnline, theme }) => {
     switch (isOnline) {
-      case 'true':
+      case 'Online':
         return theme.colors.green;
-      case 'false':
+      case 'Offline':
         return theme.colors.red;
       default:
         return theme.colors.black;
